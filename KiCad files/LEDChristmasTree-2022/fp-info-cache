@@ -1,4 +1,4 @@
-19836405385920773
+19841204480863547
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56778,6 +56778,27 @@ LED-0807
 2
 Library
 image
+
+
+0
+0
+0
+Library
+ukras1
+
+
+0
+0
+0
+Library
+ukras2
+
+
+0
+0
+0
+Library
+ukras3
 
 
 0
