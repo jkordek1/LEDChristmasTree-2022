@@ -287,16 +287,16 @@
         )
       )
       (symbol "Battery_1_1"
-        (pin passive line (at 0 5.08 270) (length 2.54)
-          (name "+" (effects (font (size 1.27 1.27))))
+        (pin passive line (at 0 -5.08 90) (length 2.54)
+          (name "-" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
         (pin passive line (at 0 -1.524 90) (length 2.54) hide
           (name "" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -5.08 90) (length 2.54)
-          (name "-" (effects (font (size 1.27 1.27))))
+        (pin passive line (at 0 5.08 270) (length 2.54)
+          (name "+" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
       )
@@ -508,7 +508,7 @@
     (uuid f1830a1b-f0cc-47ae-a2c9-679c82032f14)
   )
 
-  (no_connect (at 97.79 70.485) (uuid 3dcc657b-55a1-48e0-9667-e01e7b6b08b5))
+  (no_connect (at 87.63 62.865) (uuid 3dcc657b-55a1-48e0-9667-e01e7b6b08b5))
 
   (wire (pts (xy 121.92 89.535) (xy 142.24 89.535))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -771,7 +771,7 @@
     (uuid ff1542ae-fa8d-49e4-8bfe-b0f7ea682435)
   )
 
-  (text "- naručeno 10 komada (1.2mm) pločica, cijena je 7.1kn/kom\n- naručeno 21 komad 2xAAA kučišta za baterije, cijena je 6,2kn/kom\n\nTODO:\n- složiti da se polaritet baterija i oznake poklapaju"
+  (text "- naručeno 10 komada (1.2mm) pločica, cijena je 7.1kn/kom\n- naručeno 21 komad 2xAAA kučišta za baterije, cijena je 6,2kn/kom"
     (at 56.515 135.89 0)
     (effects (font (size 2 2)) (justify left bottom))
     (uuid 1053b01a-057e-4e79-a21c-42780a737ea9)
@@ -853,15 +853,15 @@
     (pin "2" (uuid 3b4fd3af-759b-44fe-981e-d2e9189b8897))
   )
 
-  (symbol (lib_id "Switch:SW_SPDT") (at 92.71 67.945 0) (unit 1)
+  (symbol (lib_id "Switch:SW_SPDT") (at 92.71 65.405 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000616a35dd)
-    (property "Reference" "SW1" (id 0) (at 92.71 60.706 0))
-    (property "Value" "SW_SPDT" (id 1) (at 92.71 63.0174 0))
-    (property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12" (id 2) (at 92.71 67.945 0)
+    (property "Reference" "SW1" (id 0) (at 92.71 72.644 0))
+    (property "Value" "SW_SPDT" (id 1) (at 92.71 70.3326 0))
+    (property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12" (id 2) (at 92.71 65.405 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 92.71 67.945 0)
+    (property "Datasheet" "~" (id 3) (at 92.71 65.405 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 47215b44-a81b-4ade-87da-de4829e949c3))
