@@ -771,7 +771,7 @@
     (uuid ff1542ae-fa8d-49e4-8bfe-b0f7ea682435)
   )
 
-  (text "- naručeno 10 komada (1.2mm) pločica, cijena je 7.1kn/kom\n- naručeno 21 komad 2xAAA kučišta za baterije, cijena je 6,2kn/kom\n\nTODO:\n- zaobliti sve krakove\n- napraviti layout da sve ledice bude orijentirane na isti način"
+  (text "- naručeno 10 komada (1.2mm) pločica, cijena je 7.1kn/kom\n- naručeno 21 komad 2xAAA kučišta za baterije, cijena je 6,2kn/kom\n\nTODO:\n- zaobliti sve krakove\n- napraviti layout da sve ledice bude orijentirane na isti način\n- maknuti bijelu zvijezdu, podebljati zvijezdu bez maske"
     (at 56.515 135.89 0)
     (effects (font (size 2 2)) (justify left bottom))
     (uuid 1053b01a-057e-4e79-a21c-42780a737ea9)
