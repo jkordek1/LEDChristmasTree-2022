@@ -1,5 +1,12 @@
+# LEDChristmasTree-2022
+
+[![Version](https://img.shields.io/github/v/release/jkordek1/LEDChristmasTree-2022)](https://github.com/jkordek1/LEDChristmasTree-2022/releases/tag/Initial)
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![GitHub Issues](https://img.shields.io/github/issues/jkordek1/LEDChristmasTree-2022)](https://github.com/jkordek1/LEDChristmasTree-2022/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/jkordek1/LEDChristmasTree-2022)](https://github.com/jkordek1/LEDChristmasTree-2022/pulls)
+
 ## About
-LED Christmas tree powered by 2xAAA batteries. It uses self-flashing LEDs (fast and slow). Device uses just a few mA of current so the batteries should last through holidays!
+LED Christmas tree powered by 2xAAA batteries. It uses self-flashing LEDs (fast and slow). Device draws ~5 mA of current so the batteries should last through holidays!
 
 There are a lot of LED christmas trees but this one is just a perfect size, uses small amount of power and it gives a really nice effect.
 
@@ -20,3 +27,14 @@ https://www.youtube.com/shorts/3aN1jUx8Kqs
 | 3  | 1 | 2xAAA Battery holder  | [Aliexpress](https://www.aliexpress.com/item/4001139676299.html?spm=a2g0o.order_list.0.0.21ef18022NrTgV) |
 | 4  | 1 |  Slide switch  | [LCSC](https://lcsc.com/product-detail/Slide-Switches_Korean-Hroparts-Elec-K3-1296S-E2_C136659.html) |
 | 5  | 12 | 2k 0603 resistor  | - |
+
+## Project folder structure
+    .
+    ├── ...
+    ├── Graphics                # Images and graphics
+    ├── KiCadFiles              # Main folder
+    │   ├── 3D models           # 3d models of components
+    │   ├── BoardGame           # KiCAD project for main PCB
+    │   ├── Dice                # KiCAD project for dice
+    │   └── Touchpad            # KiCAD project for touchpad controls
+    └── ...
