@@ -32,9 +32,6 @@ https://www.youtube.com/shorts/3aN1jUx8Kqs
     .
     ├── ...
     ├── Graphics                # Images and graphics
-    ├── KiCadFiles              # Main folder
-    │   ├── 3D models           # 3d models of components
-    │   ├── BoardGame           # KiCAD project for main PCB
-    │   ├── Dice                # KiCAD project for dice
-    │   └── Touchpad            # KiCAD project for touchpad controls
+    ├── KiCadFiles              # Main KiCAD folder
+    │   └── jlcpcb              # JLCPCB assembly and gerber folder
     └── ...
