@@ -34,4 +34,5 @@ https://www.youtube.com/shorts/3aN1jUx8Kqs
     ├── Graphics                # Images and graphics
     ├── KiCadFiles              # Main KiCAD folder
     │   └── jlcpcb              # JLCPCB assembly and gerber folder
+    ├── stand 3D model          # .stl file for stand
     └── ...
